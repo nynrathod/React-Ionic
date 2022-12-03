@@ -1,0 +1,264 @@
+/* All fonts */
+@font-face {
+    font-family: 'Franklin-BlackItalic';
+    src: url('../assets/font-franklin/LibreFranklin-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Franklin-BoldItalic';
+    src: url('../assets/font-franklin/LibreFranklin-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Franklin-Italic';
+    src: url('../assets/font-franklin/LibreFranklin-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Franklin-ExtraBold';
+    src: url('../assets/font-franklin/LibreFranklin-ExtraBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Franklin-Bold';
+    src: url('../assets/font-franklin/LibreFranklin-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Franklin-ExtraLightItalic';
+    src: url('../assets/font-franklin/LibreFranklin-ExtraLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Franklin-ExtraBoldItalic';
+    src: url('../assets/font-franklin/LibreFranklin-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Franklin-ExtraLight';
+    src: url('../assets/font-franklin/LibreFranklin-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Franklin-Black';
+    src: url('../assets/font-franklin/LibreFranklin-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Franklin-Thin';
+    src: url('../assets/font-franklin/LibreFranklin-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Franklin-MediumItalic';
+    src: url('../assets/font-franklin/LibreFranklin-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Franklin-LightItalic';
+    src: url('../assets/font-franklin/LibreFranklin-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Franklin-SemiBold';
+    src: url('../assets/font-franklin/LibreFranklin-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Franklin-Light';
+    src: url('../assets/font-franklin/LibreFranklin-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Franklin-Regular';
+    src: url('../assets/font-franklin/LibreFranklin-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Franklin-SemiBoldItalic';
+    src: url('../assets/font-franklin/LibreFranklin-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Franklin-Medium';
+    src: url('../assets/font-franklin/LibreFranklin-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Franklin-ThinItalic';
+    src: url('../assets/font-franklin/LibreFranklin-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+/* Reset Default tag */
+a {
+    text-decoration: inherit;
+    color: inherit;
+}
+
+body * {
+    --color: var(--ion-color-body);
+}
+
+/* Dark Scrollbar */
+.dark ::-webkit-scrollbar {
+    width: 8px;
+    height: 3px;
+}
+.dark ::-webkit-scrollbar-button {
+    background-color: #666;
+}
+.dark ::-webkit-scrollbar-track {
+    background-color: #646464;
+}
+.dark ::-webkit-scrollbar-track-piece {
+    background-color: #000;
+}
+.dark ::-webkit-scrollbar-thumb {
+    height: 50px;
+    background-color: #666;
+    border-radius: 3px;
+}
+.dark ::-webkit-scrollbar-thumb:hover {
+    background-color: #777;
+}
+.dark ::-webkit-scrollbar-corner {
+    background-color: #646464;
+}
+.dark ::-webkit-resizer {
+    background-color: #666;
+}
+
+.ripple-parent {
+    position: relative;
+    overflow: hidden;
+}
+.shadown-none,
+.shadown-none input,
+.shadown-none button {
+    --box-shadow: none;
+}
+.dark .dark-bg-header {
+    background-color: rgb(31 41 54);
+}
+
+/* Custom Classes */
+.yz-onhover {
+    opacity: 0;
+}
+.yz-hover:hover .yz-onhover {
+    opacity: 1;
+}
+.yz-shadow {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+.yz-color-theme {
+    background: var(--ion-color-theme);
+}
+.yz-b {
+    border: 1px solid var(--ion-item-border-color, var(--ion-border-color, var(--ion-color-step-150, rgba(0, 0, 0, 0.13))));
+}
+.yz-b-left {
+    border-left: 1px solid var(--ion-item-border-color, var(--ion-border-color, var(--ion-color-step-150, rgba(0, 0, 0, 0.13))));
+}
+.yz-b-right {
+    border-right: 1px solid var(--ion-item-border-color, var(--ion-border-color, var(--ion-color-step-150, rgba(0, 0, 0, 0.13))));
+}
+.yz-b-top {
+    border-top: 1px solid var(--ion-item-border-color, var(--ion-border-color, var(--ion-color-step-150, rgba(0, 0, 0, 0.13))));
+}
+.yz-b-bottom {
+    border-bottom: 1px solid var(--ion-item-border-color, var(--ion-border-color, var(--ion-color-step-150, rgba(0, 0, 0, 0.13))));
+}
+
+/* Define Font Class */
+.font-franklin-blackitalic {
+    font-family: 'Franklin-BlackItalic';
+}
+.font-franklin-bolditalic {
+    font-family: 'Franklin-BoldItalic';
+}
+.font-franklin-italic {
+    font-family: 'Franklin-Italic';
+}
+.font-franklin-extrabold {
+    font-family: 'Franklin-ExtraBold';
+}
+.font-franklin-bold {
+    font-family: 'Franklin-Bold';
+}
+.font-franklin-extralightitalic {
+    font-family: 'Franklin-ExtraLightItalic';
+}
+.font-franklin-extrabolditalic {
+    font-family: 'Franklin-ExtraBoldItalic';
+}
+.font-franklin-extralight {
+    font-family: 'Franklin-ExtraLight';
+}
+.font-franklin-black {
+    font-family: 'Franklin-Black';
+}
+.font-franklin-thin {
+    font-family: 'Franklin-Thin';
+}
+.font-franklin-mediumitalic {
+    font-family: 'Franklin-MediumItalic';
+}
+.font-franklin-lightitalic {
+    font-family: 'Franklin-LightItalic';
+}
+.font-franklin-semibold {
+    font-family: 'Franklin-SemiBold';
+}
+.font-franklin-light {
+    font-family: 'Franklin-Light';
+}
+.font-franklin {
+    font-family: 'Franklin-Regular';
+}
+.font-franklin-semibolditalic {
+    font-family: 'Franklin-SemiBoldItalic';
+}
+.font-franklin-medium {
+    font-family: 'Franklin-Medium';
+}
+.font-franklin-thinitalic {
+    font-family: 'Franklin-ThinItalic';
+}
