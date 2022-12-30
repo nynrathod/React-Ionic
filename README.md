@@ -2,6 +2,6 @@
 
 Script
 
-pnpm install
-cd react-ionic
-npm run dev
+### `pnpm install`
+### `cd react-ionic`
+### `npm run dev`
